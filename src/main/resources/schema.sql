@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS TBL_STOCK;
+ 
+CREATE TABLE TBL_STOCK (
+  stock_number INT AUTO_INCREMENT  PRIMARY KEY,
+  stock_name VARCHAR(250) NOT NULL,
+  purchasing_price NUMBER NOT NULL,
+  purchasing_date VARCHAR(250) NOT NULL,
+  quantity NUMBER NOT NULL
+);
